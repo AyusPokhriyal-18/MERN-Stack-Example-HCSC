@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_AyusPokhriyal_18_MERN_Stack_Example_HCSC_1718951643444-pr-trigger-input-set
+  identifier: Build_AyusPokhriyal_18_MERN_Stack_Example_HCSC_1718951643444prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: HCSC_Demo
+  pipeline:
+    identifier: Build_AyusPokhriyal_18_MERN_Stack_Example_HCSC_1718951643444
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
